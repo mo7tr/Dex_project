@@ -32,7 +32,7 @@ contract Dex {
     address public admin;
     uint256 public nextOrderId;
     uint256 public nextTradeId;
-    bytes32 constant DAI = bytes32("DAI");
+    bytes32 public constant DAI = bytes32("DAI");
 
     event NewTrade(
         uint256 tradeId,
